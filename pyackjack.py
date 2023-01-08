@@ -1,6 +1,6 @@
 import random
 import time
-from player_cards import Card, get_shuffled_deck
+from playing_cards import Card, get_shuffled_deck
 
 
 class Blackjack:
