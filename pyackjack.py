@@ -52,12 +52,12 @@ class Blackjack:
             if input("Receive another card [y] or stand [n]?: ") == "y":
                 self.player_hand.append(self.deck.pop())
                 print("You were dealt another card.")
+                print(self.player_hud)
                 if self.is_bust(self.player_hand):
                     return (
                         "you lose",
                         f"You bust with a score of {self.player_score}!",
                     )
-                print(self.player_hud)
                 if not self.player_score == 21:
                     continue
             print("You chose to stand.")
