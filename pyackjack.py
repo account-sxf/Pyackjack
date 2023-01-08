@@ -1,11 +1,3 @@
-"""
-Pyackjack!
-
-A simplified blackjack game in idiotic python.
-
-by Joel Taylor and Rory Samson
-"""
-
 import random
 import time
 from player_cards import Card, get_shuffled_deck
